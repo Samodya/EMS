@@ -1,0 +1,198 @@
+.dropdown-button, .main_menu a{
+    width: 90%;
+    background: none;
+    border: none;
+    align-items: center;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-align: left;
+    margin-bottom: 15px ;
+}
+
+
+.main_nav{
+    display: block;
+  }
+
+.dropdown-button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mini_dropdown-button,.mini_main_manu a{
+    color: #ffffff;
+    font-size: 1.35rem;
+    margin: 10px 10px;
+}
+
+.mini_main_manu a:hover{
+    background: #ffffff;
+    color: #000;
+}
+
+.dropdown-button div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dropdown-item{
+    margin: 5px 10px;
+    cursor: pointer;
+    padding: 0px 5px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main_menu a{
+    text-decoration: none;
+    color: #ffffff;
+    gap: 10px;
+}
+
+.main_menu a:hover{
+    background: #ffffff;
+    padding: 10px;
+    color: #000;
+    border-radius: 2px;
+}
+
+.dropdown-item:hover{
+    background: #ffffff;
+    padding: 10px;
+    color: #000;
+    border-radius: 2px;
+}
+
+.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    text-align: left;   
+    font-size: 1.05rem; 
+}
+
+.dropdown-menu a{
+    font-size: 0.9rem;
+    gap: 10px;
+}
+
+.mini_nav .dropdown{
+    text-align: center;
+}
+
+.nav_dropdown-content{ 
+    text-align: left;
+    color: #ffffff;
+    color: black;
+    font-size: 1.15rem;
+    padding-left: 10px;
+    padding: 5px;
+    margin: 5px 15px;
+    background: #ffffff;
+}
+.expan{
+    font-size: 0.6rem;
+}
+
+.dropbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #ccc;
+}
+
+.mini_nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_button{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#openModal{
+    background: transparent;
+    border: none;
+    font-family: 'poppins',sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+
+.close_button_modal{
+    width: 100%;
+    text-align: right;
+}
+
+#closeModal{
+
+    font-size: 1.5rem;
+    color: #1d294d;
+    background: transparent;
+    border: none;
+}
+
+#modal {
+    position: fixed;
+    top: 75.5px; /* Adjust this value based on the button's position */
+    right:-25.5px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+    z-index: 1000; /* Ensure the modal appears above other content */
+    width: 80%; /* Adjust the width as needed */
+    max-width: 150px; /* Set a maximum width for the modal */
+    margin-top: 30px; /* Add some space between the button and the modal */
+}
+
+.modal_item p,a{
+    cursor: pointer;
+    display: flex;
+    color: #1d294d;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.modal_item p:hover ,a:hover{
+    background: #1d294d;
+    color: #ffffff;
+    padding: 5px;
+}
+
+
+
+@media screen and (max-width:1900){
+    .dropdown-button, .main_menu{
+        font-size: 1rem;
+    }
+
+    #modal {
+        position: fixed;
+        top: 75.5px; /* Adjust this value based on the button's position */
+        right:-65.5px;
+    }
+
+    .main_nav{
+        display: none;
+      }
+
+     
+  }
+
+  

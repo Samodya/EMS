@@ -1,0 +1,172 @@
+.add_page_cont {
+    padding: 10px;
+}
+
+.add_page_cont h2{
+    margin-left: 15px;
+}
+
+.add_page_cont p {
+    margin: 5px;
+}
+
+.add_page_cont hr {
+    border: 2px solid #000;
+    border-radius: 2px;
+    width: 60%;
+}
+
+.input_info{
+    width: 100%;
+    padding: 5px;
+}
+
+.input_info p{
+    font-size: 0.9rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+}
+
+.input_info_text{
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+}
+
+.item {
+    grid-column: span 2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.userImg img{
+    width: 30%;
+}
+
+.prof_img_save{
+    padding: 5px 15px;
+    background: #0c0131;
+    color: #fff;
+    border: none;
+    border-radius:5px ;
+    font-size: 1rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+
+.success_msg{
+    font-size: 0.8rem;
+    color: #0d5a0a;
+}
+
+.invalid_msg{
+    font-size: 0.8rem;
+    color: #6d0808;
+}
+
+.userImg{
+    grid-column: span 1;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+
+.file-input_label{
+    cursor: context-menu;
+    font-size: 2.4rem;
+}
+
+.add_contact_infomation,.emp_info,.add_emp{
+    margin: 5px 5%;
+    padding: 2% 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    border: 1px solid #ccc;
+}
+
+.add_emp_title{
+    grid-column: span 2;
+}
+
+.add_emp_title hr{
+    border: 2px solid #000;
+    border-radius: 2px;
+    width: 60%;
+}
+
+.input_info_address{
+    grid-column: span 2;
+}
+
+.input_info_address input{
+    width: 94%;
+}
+
+
+.add_emp_info{
+    margin: 5px 5%;
+    padding: 2% 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    border: 1px solid #ccc;
+}
+.input_info_emp{
+    grid-column: span 1;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 10px 50px;
+}
+
+.save_btn{
+    padding: 2px 20px;
+    border: none;
+    color: #fff;
+    border: #0c0131 2px solid;
+    border-radius: 5px;
+    background: #0c0131;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.Reset_btn{
+    padding: 2px 20px;
+    border: none;
+    color: #0c0131;
+    border: #0c0131 2px solid;
+    border-radius: 5px;
+    background: #fff;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.edit_emp{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 5%;
+    padding: 1% 1%;
+}
+
+@media (max-width: 1568px) {
+    .add_emp,.add_emp_info,.add_contact_infomation,.edit_emp{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+}

@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.mobile_navi{
+  display: none;
+  background: #282c34;
+  min-height: 100vh;
+}
+
+.home_cont{
+  display: flex;
+  width: 100%;
+  position: fixed;
+}
+
+.nav_column{
+  display: block;
+  flex:1;
+  background: #282c34;
+  padding: 10px;
+  height:100vh;
+}
+.nav_top{
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_top hr{
+  margin: 20px 10px;
+  width: 100%;
+}
+
+.nav_top img{
+  width: 60%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.sucess_msg{
+  background: #282c34;
+  font-family: 'poppins',sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 60%;
+  border-radius: 5px;
+  margin: 10px auto;
+  color: aliceblue;
+  padding: 5px 10px;
+}
+.error{
+  background: #e70d0d;
+  font-family: 'poppins',sans-serif;
+  text-align: center;
+  font-weight: 700;
+  width: 60%;
+  border-radius: 5px;
+  margin: auto;
+  color: aliceblue;
+  padding: 5px 10px;
+}
+.home_page_content{
+  max-height: 100vh;
+  flex: 6;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+}
+
+.home_page_content_mobile{
+  max-height: 100vh;
+  flex: 15;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+}
+
+.page_content::-webkit-scrollbar-button{
+  background: #1b58d3;
+}
+
+@media screen and (max-width:1900){
+  .home_page_content{
+    flex: 5;
+  }
+
+  .nav_top{
+    padding: 5px;
+  }
+
+  .nav_top img{
+    width: 80%;
+  }
+  
+}
+
+@media screen and (max-width: 1268px) {
+  .nav_column{
+    display: none;
+  }
+
+  .mobile_navi{
+    flex: 1;
+    display: block;
+  }
+
+  .nav_top{
+    padding: 4px;
+  }
+
+  .nav_top hr{
+    margin: auto;
+    width: 90%;
+  }
+
+  .nav_top img{
+    width: 80%;
+    border-radius: 50%;
+    margin: 10px 0px;
+  }
+
+  .opentbtn{
+    display: none;
+  }
+ }
+ 
+ .show-menu {
+  display: block;
+ }
+
+.viewImage{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.view_after{
+  width: 80px;
+  height: 80px;
+}
+
+ul{
+  list-style: none;
+}
+
+.file-input {
+  display: none;
+}
+
+/* Style the custom button */
+.custom-file-upload {
+  display: inline-block;
+  padding:  6px  12px;
+  cursor: pointer;
+  color: rgb(42, 72, 207);
+  font-weight: 800;
+  border: none;
+  border-radius:  4px;
+  text-align: center;
+  font-size:  16px;
+  transition: background-color  0.3s ease;
+}
+
+/* Change the background color when the button is hovered */
+.custom-file-upload:hover {
+  background-color: #45a049;
+}
+
